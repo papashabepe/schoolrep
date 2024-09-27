@@ -4,8 +4,7 @@ from lesson import Lesson
 
 
 class SchoolDay:
-    def __init__(self , week_day):
-        self.__week_day = week_day
+    def __init__(self):
         self.__lessons = []
 
     def appendLesson(self , lesson):
